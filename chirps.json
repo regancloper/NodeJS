@@ -1,27 +1,27 @@
 [
-    {
-        "author": "Regan Loper",
-        "text": "This is the first comment posted on this thread!",
-        "date": "10/28/18"
-    },
-    {
-        "author": "John Smith",
-        "text": "I think this is a cool website.",
-        "date": "10/28/18"
-    },
-    {
-        "author": "April May",
-        "text": "I disagree John Smith - I think this website sucks!",
-        "date": "10/28/18"
-    },
-    {
-        "author": "Jackson Cain",
-        "text": "Hey everybody.",
-        "date": "10/28/18"
-    },
-    {
-        "author": "Thomas Lee",
-        "text": "Thanks everybody for joining this thread!",
-        "date": "10/28/18"
-    }
+  {
+    "author": "Regan Loper",
+    "text": "This is the first comment posted on this thread!",
+    "date": "10/28/18"
+  },
+  {
+    "author": "John Smith",
+    "text": "I think this is a cool website.",
+    "date": "10/28/18"
+  },
+  {
+    "author": "April May",
+    "text": "I disagree John Smith - I think this website sucks!",
+    "date": "10/28/18"
+  },
+  {
+    "author": "Jackson Cain",
+    "text": "Hey everybody.",
+    "date": "10/28/18"
+  },
+  {
+    "author": "Thomas Lee",
+    "text": "Thanks everybody for joining this thread!",
+    "date": "10/28/18"
+  }
 ]

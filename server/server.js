@@ -32,15 +32,15 @@ let chirps = [
 
 let dataPath = path.join(__dirname, '../chirps.json');
 
-fs.writeFile(dataPath, JSON.stringify(chirps), (err) => {
+fs.writeFile(dataPath, JSON.stringify(chirps, null, 2), (err) => {
     if (err) console.log(err);
     console.log('The file has been saved!');
+
+    fs.readFile(dataPath, (err, data) => {
+        if (err) console.log(err);
+        console.log(JSON.parse(data));
+    });
 });
 
-fs.readFile(dataPath, {
-    encoding: "UTF-8"
-}, (err, data) => {
-    if (err) console.log(err);
-    console.log(JSON.parse(data));
-});
+
 
